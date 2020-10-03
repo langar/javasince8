@@ -59,7 +59,7 @@ public class SortList {
 		System.out.println("Tri décroissant d'une liste d'entiers");
 		List<Integer> list = Arrays.asList(8,2,3,5,9,4,7,6);
 		list.stream()
-			.filter(x -> x >= 2)
+			.filter(x -> x >= 4) // que les elts >= 4
 			.sorted(Collections.reverseOrder())
 			.forEach(System.out::println);
 
